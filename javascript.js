@@ -27,7 +27,6 @@ function gen()
 {
 	var obj = add("obj");
 	var random = Math.floor(Math.random() * hornName.length);
-	console.log(hornName.length);
 
 	var img = add("imgBox");
 	img.style.backgroundImage = "url('horn/horn" + random + ".png')";
