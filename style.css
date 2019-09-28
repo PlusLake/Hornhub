@@ -1,0 +1,186 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+	color: #FFF;
+}
+
+@font-face
+{
+	font-family: "custom-san";
+	src: url('font.ttf');
+}
+
+body
+{
+	font-family: "custom-san";
+	background-color: #000;
+	color: #FFF;
+	padding-top: 8px;
+}
+
+logo
+{
+	display: inline-block;
+	font-size: 48px;
+	line-height: 40px;
+	user-select: none;
+}
+
+logo left
+{
+	display: inline-block;
+	font-weight: bold;
+	margin-right: -8px;
+}
+
+logo right
+{
+	display: inline-block;
+	font-weight: bold;
+	background: #FF9900;
+	color: #000;
+	border-radius: 8px;
+	padding: 8px;
+}
+
+.fixedWidthContainer
+{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.barTop
+{
+	width: 100%;
+	background-color: #1F1F1F;
+	padding: 8px 16px;
+	border-top: 1px solid #555555;
+	border-bottom: 1px solid #242424;
+}
+
+.barBottom
+{
+	width: 100%;
+	padding: 0px 16px;
+	background-color: #0F0F0F;
+}
+
+menuObj
+{
+	display: inline-block;
+	font-weight: bold;
+	padding: 8px 32px;
+}
+
+menuObj:hover
+{
+	background-color: #202020;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+.search
+{
+	padding: 8px;
+	border-radius: 8px;
+	color: #EEE;
+	width: 512px;
+	background-color: #0A0A0A;
+	border: 0px;
+	position: relative;
+	left: 32px;
+}
+
+.search:focus
+{
+	outline: 0;
+}
+
+main
+{
+	display: block;
+	margin-top: 32px;
+	width: 100%;
+	background-color: #0A0A0A;
+	border: 1px solid #303030;
+}
+
+main header
+{
+	display: block;
+	width: 984px;
+	background-color: #202020;
+	padding: 8px;
+	border-bottom: 1px solid #000000;
+}
+
+main content
+{
+	display: block;
+	width: 952px;
+	background-color: #0A0A0A;
+	padding: 24px;
+}
+
+obj
+{
+	width: 256px;
+	height: 192px;
+	display: inline-block;
+	margin-right: 24px;
+}
+
+obj imgBox
+{
+	display: block;
+	width: 256px;
+	height: 135px;
+	text-align: center;
+	background-color: #000;
+	background-position: center;
+	background-size: auto 144px;
+	background-repeat: no-repeat;
+}
+
+obj img
+{
+	width: 240px;
+	display: inline-block;
+}
+
+obj name
+{
+	display: block;
+	color: #F90;
+	font-size: 12px;
+	padding: 0px 16px;
+	position: relative;
+	top: 8px;
+}
+
+obj view
+{
+	display: block;
+	color: #AAA;
+	font-size: 12px;
+	padding: 8px 16px;
+}
+
+obj like
+{
+	display: block;
+	font-size: 12px;
+	width: 95%;
+	text-align: right;
+	position: relative;
+	top: -23px;
+	color: #FFF;
+	background-image: url("thumbs.png");
+	background-size: auto 10px;
+	background-repeat: no-repeat;
+	background-position: right 30px center;
+}
