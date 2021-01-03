@@ -1,41 +1,35 @@
-*
-{
+* {
 	padding: 0px;
 	margin: 0px;
 	color: #FFF;
 }
 
-@font-face
-{
+@font-face {
 	font-family: "custom-san";
 	src: url('font.ttf');
 }
 
-body
-{
+body {
 	font-family: "custom-san";
 	background-color: #000;
 	color: #FFF;
 	padding-top: 8px;
 }
 
-logo
-{
+logo {
 	display: inline-block;
 	font-size: 48px;
 	line-height: 40px;
 	user-select: none;
 }
 
-logo left
-{
+logo left {
 	display: inline-block;
 	font-weight: bold;
 	margin-right: -8px;
 }
 
-logo right
-{
+logo right {
 	display: inline-block;
 	font-weight: bold;
 	background: #FF9900;
@@ -44,14 +38,12 @@ logo right
 	padding: 8px;
 }
 
-.fixedWidthContainer
-{
+.fixedWidthContainer {
 	width: 1000px;
 	margin: 0 auto;
 }
 
-.barTop
-{
+.barTop {
 	width: 100%;
 	background-color: #1F1F1F;
 	padding: 8px 16px;
@@ -59,32 +51,27 @@ logo right
 	border-bottom: 1px solid #242424;
 }
 
-.barBottom
-{
+.barBottom {
 	width: 100%;
 	padding: 0px 16px;
 	background-color: #0F0F0F;
 }
 
-menuObj
-{
+menuObj {
 	display: inline-block;
 	font-weight: bold;
 	padding: 8px 32px;
 }
 
-menuObj:hover
-{
+menuObj:hover {
 	background-color: #202020;
 }
 
-a
-{
+a {
 	text-decoration: none;
 }
 
-.search
-{
+.search {
 	padding: 8px;
 	border-radius: 8px;
 	color: #EEE;
@@ -95,13 +82,11 @@ a
 	left: 32px;
 }
 
-.search:focus
-{
+.search:focus {
 	outline: 0;
 }
 
-main
-{
+main {
 	display: block;
 	margin-top: 32px;
 	width: 100%;
@@ -109,8 +94,7 @@ main
 	border: 1px solid #303030;
 }
 
-main header
-{
+main header {
 	display: block;
 	width: 984px;
 	background-color: #202020;
@@ -118,24 +102,21 @@ main header
 	border-bottom: 1px solid #000000;
 }
 
-main content
-{
+main content {
 	display: block;
 	width: 952px;
 	background-color: #0A0A0A;
 	padding: 24px;
 }
 
-obj
-{
+obj {
 	width: 256px;
 	height: 192px;
 	display: inline-block;
 	margin-right: 24px;
 }
 
-obj imgBox
-{
+obj imgBox {
 	display: block;
 	width: 256px;
 	height: 135px;
@@ -146,14 +127,12 @@ obj imgBox
 	background-repeat: no-repeat;
 }
 
-obj img
-{
+obj img {
 	width: 240px;
 	display: inline-block;
 }
 
-obj name
-{
+obj name {
 	display: block;
 	color: #F90;
 	font-size: 12px;
@@ -162,16 +141,14 @@ obj name
 	top: 8px;
 }
 
-obj view
-{
+obj view {
 	display: block;
 	color: #AAA;
 	font-size: 12px;
 	padding: 8px 16px;
 }
 
-obj like
-{
+obj like{
 	display: block;
 	font-size: 12px;
 	width: 95%;
