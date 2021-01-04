@@ -58,13 +58,13 @@ logo right {
 	background-color: #0F0F0F;
 }
 
-menuObj {
+.menuObj {
 	display: inline-block;
 	font-weight: bold;
 	padding: 8px 32px;
 }
 
-menuObj:hover {
+.menuObj:hover {
 	background-color: #202020;
 }
 
@@ -87,7 +87,7 @@ a {
 	outline: 0;
 }
 
-main {
+.main {
 	display: block;
 	margin-top: 32px;
 	width: 100%;
@@ -95,7 +95,7 @@ main {
 	border: 1px solid #303030;
 }
 
-main header {
+.main .header {
 	display: block;
 	width: 984px;
 	background-color: #202020;
@@ -103,7 +103,7 @@ main header {
 	border-bottom: 1px solid #000000;
 }
 
-main content {
+.main #content {
 	display: block;
 	width: 952px;
 	background-color: #0A0A0A;
