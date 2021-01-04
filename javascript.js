@@ -35,7 +35,7 @@ function gen() {
 }
 
 function main() {
-	let count = Math.floor(Math.random() * 16) + 10;
+	let count = (Math.floor(Math.random() * 4) + 4) * 3;
 	for(let i = 0; i < count; i++) {
 		gen();
 	}
