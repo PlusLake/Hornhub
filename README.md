@@ -2,6 +2,6 @@
 
 A joke website that introduces french horns:
 
-https://pluslibrary.github.io/Hornhub/
+https://pluslake.github.io/Hornhub/
 
 Enjoy :)
